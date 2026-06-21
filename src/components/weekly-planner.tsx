@@ -130,7 +130,7 @@ export function WeeklyPlanner() {
             // We need selectedDayId to be valid.
             if (!selectedDayId) {
                toast.error("Pilih hari terlebih dahulu")
-               return
+               return day
             }
 
             return {
